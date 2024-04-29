@@ -1,6 +1,6 @@
 var express = require("express");
 var router = express.Router();
-var controller = require('../controllers/controllers');
+var controller = require('../controllers/homeController');
 
 router.post('/cat', controller.insertCat);
 router.get('/cats', controller.getAllCats);
